@@ -1,0 +1,15 @@
+\ProvidesFile{juliette.lco}[%
+ 2002/07/09 v0.9a LaTeX2e unsupported letter-class-option]
+
+% ==============================================
+% PERSONAL DATA
+% ==============================================
+\setkomavar{fromname}{Juliette Piquard}
+\setkomavar{fromaddress}{14 rue de l'Ourcq\\75019 Paris\\France}
+\setkomavar{fromphone}{(+33) 06 50 37 73 42}
+\setkomavar{fromemail}{juliettepiquard@gmail.com}
+\setkomavar{place}{Paris}
+\setkomavar{signature}{Juliette Piquard}
+\setkomavar{toaddress}{Science Park 904\\ 1098 XH Amsterdam\\ The Netherlands}
+
+\endinput

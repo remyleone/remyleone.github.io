@@ -1,0 +1,10 @@
+destination: ./_site
+permalink: pretty
+pygments: true
+paginate: 10
+markdown: maruku
+archive_path: /archive
+categories_path : /categories
+tags_path : /tags
+exclude: ["readme.markdown"]
+title: Rémy Léone | sieben.fr

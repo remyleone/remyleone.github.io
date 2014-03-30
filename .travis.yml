@@ -1,0 +1,11 @@
+install:
+    - sudo apt-get install tidy
+
+before_install:
+    - gem install jekyll
+
+script:
+    - jekyll build
+
+notifications:
+    - email: false

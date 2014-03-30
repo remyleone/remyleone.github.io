@@ -1,0 +1,97 @@
+\documentclass[10pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[green]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{hyperref}
+
+% adjust the page margins
+\usepackage[margin=2.3cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Juliette}
+\familyname{Piquard}
+\title{Bachelor's degree in Physics}
+\address{14 rue de l'Ourcq}{75019 Paris}
+\phone{(+33) 06 50 37 73 42}
+\email{juliettepiquard@gmail.com}
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Applicant for International Mobility at the University Of Amsterdam}
+%\extrainfo{28 ans}
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+%% arguments 3 to 6 can be left empty
+
+\cventry{2011 to Present}{Master's Degree in Materials}{Engineering School
+Polytech’Paris UPMC}{Paris}{}{Specialization in metallurgy, polymer, ceramic,
+glass, and nanomaterials}
+
+\cventry{2011 - 2010}{Bachelor's degree in Physics}{Université Pierre et Marie
+Curie}{Paris}{}{}
+
+\section{Professional Experience}
+
+\cventry{June 2013 - July 2013}{Laboratory Assistant}{Centre de Recherche sur
+la Conservation des Collections}{Paris}{}{Bones analysis using UV and IR
+spectroscopy, and Transmission Electron Microscopy}
+
+\cventry{2009 to present}{Teacher}{Côté Cours}{Paris}{}{Focus on physics and
+mathematics training for undergraduate students}
+
+\cventry{June 2012 - July 2012}{Intern}{France Television}{Paris}{}{
+    \begin{itemize}
+        \item Assignment with the special effects team
+        \item Design and conception of a special effect keyboard
+        \item Design and conception of a video wall for France Television to broadcast the London's 2012 Olympic Games
+    \end{itemize}
+}
+
+\cventry{January 2011 - February 2011}{Laboratory assistant}{Laboratoire Kastler
+Brossel}{Paris}{}{
+    \begin{itemize}
+        \item Design of a process control system
+        \item Design of a printed circuit on CadSoft EAGLE PCB Design Software
+        \item Work done in a small team
+    \end{itemize}
+}
+
+\section{Languages}
+
+\cvlanguage{French}{Native Speaker}{Native Language}
+
+\cvlanguage{English}{Professional Level}{Average of 800 on TOEIC}
+
+\cvlanguage{German}{Academic Knowledge}{German classes for 8 years}
+
+\section{Computer Skills}
+
+\cvcomputer{Document processing}{Microsoft Office, LaTeX}{}{}
+\cvcomputer{Programming language}{Python, Scilab}{}{}
+
+\section{Associative Experience}
+
+\cvline{\href{http://paris-montagne.org}{Paris Montagne}}{\small The purpose of
+    this association is to show how scientific research works. Our target
+    audience is high school students to whom we offer educational activities. I
+    was running a stand during a scientific festival giving practical
+information on molecular cooking at École Normale Supérieure Ulm.}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}

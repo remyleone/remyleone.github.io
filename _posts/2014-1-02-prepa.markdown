@@ -1,0 +1,172 @@
+---
+title: What's a french prepa?
+layout: article
+---
+
+(from [here](http://www.jppanaget.com/doku.php/wiki:maths_sup-spe))
+
+The 'classes préparatoires aux grandes écoles' (CPGE), commonly called 'classes
+prépas' or 'prépas', are a two-year curriculum extensible to three-years,
+acting as a prep course with the main goal of training undergraduate students
+for enrollment in one of the grandes écoles. The grandes écoles of France are
+higher education establishments aside the mainstream framework of the public
+universities. They include sciences & engineering schools, business schools,
+specific humanities schools, but include neither medical institutes, nor
+architecture institutes nor law institutes. They are generally focused on a
+single subject area, such as engineering or business, have a moderate size, and
+are often quite selective in their admission of students. Due to their
+competitive entrance exams, they are widely regarded as a prestigious
+curriculum by students, and traditionally have produced most of France's
+scientists and executives.
+
+In a given year, 800,000 people are born in France, 480,000 pass the
+baccalaureat (secondary school diploma), and 37,000 of them are admitted in
+CPGE.  Among those 74,000 undergraduate students, 47,000 of them follow prep
+courses for entrance exams into sciences & engineering schools, 16,000 of them
+for entrance exams into business schools, 11,000 of them for entrance exams
+into humanities schools.
+
+To get into one of the French grandes écoles, most students will take a very
+competitive national exam at the end of the two-year program in one of the
+CPGE. This national exam includes written tests during several weeks that will
+challenge the students on what they have learned for the past two years.
+
+Then, most of these students will be ranked accordingly to their results but
+each year a certain percentage of students do not make this ranking.
+
+These failing students will generally be allowed to repeat their second year or
+will continue their studies in one of the local universities.
+
+The successful students from across the country all go to places of examination
+(usually, but not exclusively, in the capital, Paris) during the summer to
+participate to a last round of selection. This process consists of oral exams,
+usually 1h in duration, during which they are given a problem to solve.
+Generally, after 20 min of preparation, they will expose their solution to a
+teacher which will then challenge the candidate on their results and the
+assumptions being made, as well, depending of the cases, to challenge on the
+fly the candidate on questions not asked explicitly in the subject, especially
+if the person finishes the problem earlier.
+
+At the end of this stressful selection process, candidates will receive their
+final ranking which will allow them - if ranked - to finally apply to the
+grande école of their choice. The national exam is not an exam which applies
+for exhaustively all the grandes écoles. In order to candidate for all the
+grandes écoles, one must generally candidate to a large number (around 5) of
+different examinations (Centrale, CCP, Polytechnique, e3a, mines), leading to a
+month-long of different written exams and a month-long different oral exams,
+possibly and likely in different places. The ranking at the end is specific to
+a group of schools, admission in a prestigious examination like Polytechnique
+does not automatically allow one to enter a lower-ranked school if one did not
+pass the group of exams that this school belongs to. Their national ranking
+will allow them or not to get into the grande école of their choice.
+
+Admission
+---------
+
+Admission to the CPGE is usually based on performance during the last two years
+of high school, called première and terminale. The CPGE are located within high
+schools due to historical reasons (Napoleon created them at first as fourth to
+sixth year of high school). but pertain to tertiary education, which means that
+each student must have passed successfully their Baccalauréat (or equivalent)
+to be admitted in CPGE. Each CPGE receives the files of hundreds of applicants
+worldwide every year during April and May, and selects its new students under
+its own criteria (mostly excellency). A few CPGE programmes, mainly the private
+CPGEs (which account for 10% of CPGEs), also have an interview process or look
+at a student's involvement in the community.
+
+Organization of CPGE
+--------------------
+
+CPGE exist in three different fields of study: Science and Engineering,
+Business, and Humanities. All CPGE programs have a nominal duration of two
+years, but the second year is sometimes repeated once.
+
+Scientific CPGE
+===============
+
+The oldest CPGEs are the scientific ones, which can only be accessed by
+scientific Bacheliers. The different tracks are the following : * MPSI
+(“mathematics, physics, and engineering science”) in the first year, followed
+either MP (“mathematics and physics”) or PSI (“physics and engineering
+science”) * PCSI (“physics, chemistry, and engineering science”), followed PC
+(“physics and chemistry”) or PSI (“physics and engineering science”) * BCPST1
+(“biology, chemistery, physics and earth sciences”) followed by BCPST2 * PTSI
+(“physics, technology, and engineering science”), followed by PT (“physics and
+technology”) The classes which especially train students for admission to the
+elite École Normale Supérieure or École Polytechnique have an asterisk added to
+their name, e.g. MP\*, and usually called “MP étoile” (“MP star”). Both the
+first and second year programmes include as much as sixteen hours of
+mathematics teaching per week, ten hours of physics, two hours of philosophy,
+two to four hours of (one or two) foreign languages teaching and two to three
+hours of minor options: either SI, engineering industrial science, chemistry or
+theoretical computer science (including some programming using the Pascal or
+CaML programming languages, as a practical work). With this is added several
+hours of homework, which can rise as much as the official hours of class.
+
+In scientific CPGE, the first year of CPGE is usually called the 'math sup' -
+or hypotaupe - (sup for “classe de mathématiques supérieures”, superior in
+French, meaning post-high school), and second year 'math spé' - or taupe -
+(spés for “classe de mathématiques spéciales”, special in French). The students
+of these classes are called taupins.
+
+Life in a CPGE
+--------------
+
+The amount of work required of the students is exceptionally high. In addition
+to class time and homework, students spend several hours each week completing
+exams and 'colles' (very often written 'khôlles' to look like a Greek word,
+this way of writing being initially a khâgneux joke). The so called 'colles'
+are unique to French academic education in CPGEs. They consist of oral
+examinations twice a week, in math, physics, chemistry, French and the foreign
+languages, usually English and Spanish. Students, usually in groups of three,
+spend an hour facing a professor alone in a room, answering questions and
+solving problems. In CPGE littéraires (humanities), the system of 'colles' is a
+bit different. They are taken every quarter in every subject. Students have one
+hour to prepare a short presentation that takes the form of a French-style
+dissertation (a methodologically codified essay, typically structured in 3
+parts: thesis, counter-thesis, and synthesis) in history, philosophy, etc. on a
+given topic, and that of a commentaire composé (a methodologically codified
+commentary) in literature and foreign languages; as for the Ancient Greek or
+Latin, they involve a translation and a commentary. The student then has 20
+minutes to present his work to the teacher, who ends the session by asking some
+questions on the presentation and on the corresponding topic. 'Colles' are
+regarded as extremely stressful, particularly due to the high standards
+expected by the teachers, and the subsequent harshness that may be directed at
+students who do not perform adequately. But they are important as they prepare
+the students, from the very first year, to the oral part of the competitive
+examination, reserved to the happy few who successfully pass the written part.
+
+When a student repeats his second year, he gets then the status of cinq demi
+(“five halves”), for he was only a trois demi (“three halves”) during his first
+second year, and un demi (“one half”) in his first year. The explanation behind
+those names is that the most coveted engineering school is the Ecole
+Polytechnique, nicknamed the X (as the mathematical unknown). In French, a
+student is said to integrate a school when they are allowed to enroll in it. A
+student is called a 3/2 if he integrates the Ecole Polytechnique between his
+first and second year of preparatory class since the integral of x from 1 to 2
+is 3/2. The same idea is valid for “cinq demi”, since the integral of x from 2
+to 3 is 5/2. Students in their first year are also called “bizhuts”, and in
+their second year, “carrés” (“squares”). Students enrolled in their second
+second-year are also called “cubes” (or Khûbes), and a few turn to “bicarrés”
+for a third and final second-year. These terms probably stem from repeated
+attempts at applying to “X” (Polytechnique), yielding x2 and x3. Some ambitious
+professors encourage their top students to eschew admittance to other
+prestigious schools in order to try their hand at X one more time… Despite this
+high standard, the 47 000 students in scientific CPGE must face the fact that
+they won't all go to the Ecole Polytechnique. The renowned engineering schools
+are Centrale Paris, Supélec, École nationale supérieure des mines de Paris,
+École nationale des ponts et chaussées, École nationale de la statistique et de
+l'administration économique, École nationale supérieure de techniques avancées,
+École nationale supérieure des télécommunications, École supérieure de physique
+et de chimie industrielles de la ville de Paris, Institut Supérieur de
+l'Aéronautique et de l'Espace, École nationale de l'aviation civile or École
+nationale supérieure d'arts et métiers, are also a proud goal to obtain for
+these students.
+
+The students of CPGE are usually matriculated concurrently in universities, and
+can rejoin college in case of failure of their grandes écoles ambitions or if
+they just do not wish to become engineers and feel not able to pass the Écoles
+Normales Supérieures competitive examinations. The ratio of students who failed
+to enter grandes écoles is low in the scientific and economics CPGE, but high
+in humanities, for the only grande école aimed at in these classes is the École
+Normale Supérieure.

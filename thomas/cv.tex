@@ -1,0 +1,119 @@
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[green]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{hyperref}
+
+% adjust the page margins
+\usepackage[margin=2.3cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Thomas}
+\familyname{Leone}
+\title{22 ans}
+\address{37 rue Gaston Crepin}{93000 Bobigny}
+\mobile{07 61 61 35 95}
+\email{thomasleone@live.fr}
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Recherche d’emploi de Chaudronnier}
+%\extrainfo{PWET}
+\extrainfo{Permis B}
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Diplômes}
+
+\cventry{2011 - 2013}{BTS Conception et Réalisation en Chaudronnerie Industrielle}{Lycée Jean Jaurès}{Argenteuil}{}{}{}
+
+\cventry{Juillet 2012}{Attestation Individuelle de Formation relative à la Sûreté Aéroportuaire}{REM Sûreté}{Roissy en France}{}{}
+
+\cventry{Juin 2011}{BAC PRO TCI \textit{Mention assez bien}}{Lycée Chennevière Malézieux}{Paris}{}
+{Technicien chaudronnerie industrielle}
+
+\cventry{Février 2011}{Certificat de Sauveteur Secouriste du Travail}{Lycée
+Chennevière Malezieux}{Paris}{}{}
+
+\cventry{2007-2009}{BEP ROC}{Lycée Chennevière Malezieux}{Paris}{}
+{Réalisation d’ouvrages chaudronnés}
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+\section{Expériences professionnelles}
+
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description} 
+% arguments 3 to 6 are optional
+
+\cventry{27 Juin - 30 Août 2013}{Magasinier et Livreur}{Partnair and Sea}{Roissy en France}{}{}
+
+\cventry{4 Juillet - 31 Août 2012}{Magasinier et Livreur}{Partnair and Sea}{Roissy en France}{}{}
+
+\cventry{7 Mai - 29 Juin 2012}{Soudeur et bureau d'étude}{Air Liquide Engineering}{Vitry sur Seine}{}
+{Soudure TIG - Pratique du Logiciel Solidworks}
+
+\cventry{28 Février - 25 Mars 2011}{Assistant Chaudronnier}
+{RATP}
+{Sucy-en-Brie}{}
+{Réalisation d'une pièce nécessaire à la maintenance d'une armoire électrique}
+
+\cventry{1 Juillet - 20 Août 2010}{Aide Tôlier}
+{Entreprise Picard}
+{Le Pré Saint Gervais}{}
+{Fabrication de pièces métalliques suivant un plan donné.}
+
+\cventry{22 Mars - 16 Avril 2010}{Assistant Chaudronnier}
+{RATP}
+{Sucy-en-Brie}{}
+{Découpage de plaques, Soudure à l'arc, Pliage, Poinçonnage.}
+
+
+\cventry{23 Nov - 18 Déc 2009}{Assistant Chaudronnier}
+{Entreprise Picard}
+{Le Pré Saint Gervais}{}
+{Découpage de plaques, Soudure à l'arc, Pliage, Poinçonnage.}
+
+
+\cventry{9 Juin - 27 Juin 2008}{Assistant Chaudronnier}
+{Entreprise Picard}
+{Le Pré Saint Gervais}{}
+{Découpage de plaques, Soudure à l'arc, Pliage, Poinçonnage.}
+
+\cventry{2 Juillet - 8 Août 2007}{Serveur}
+{Restaurant Seç}
+{Paris}{}
+{}
+
+% arguments 3 to 6 are optional
+
+\section{Compétences linguistiques}
+\cvlanguage{Anglais}{Scolaire}{}
+
+\section{Compétences logicielles}
+\cvitem{CAO}{Catia}{}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}

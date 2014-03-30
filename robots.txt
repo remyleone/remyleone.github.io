@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /yasmine/
+Disallow: /thomas/
+Disallow: /juliette/
+Disallow: /karen/
+Sitemap: http://sieben.fr/sitemap.xml
