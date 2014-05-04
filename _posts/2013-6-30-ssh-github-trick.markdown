@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: ssh trick for heavy github user
 tags:
   - code

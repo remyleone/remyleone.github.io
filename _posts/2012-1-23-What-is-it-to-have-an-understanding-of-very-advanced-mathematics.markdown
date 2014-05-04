@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: What Is It Like to Have an Understanding of Very Advanced Mathematics?
 tags:
 - science

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: article
 title: The importance of stupidity in scientific research
 tags: 
   - research 

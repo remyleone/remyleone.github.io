@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Hash in Python
 tags:
   - code
