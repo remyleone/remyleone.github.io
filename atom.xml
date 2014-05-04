@@ -1,29 +1,28 @@
 ---
 layout: nil
-title: Atom Feed
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Sieben.fr | Rémy Léone</title>
-  <subtitle>Rémy Léone's website</subtitle>
-  <link type="application/atom+xml" href="sieben.fr" rel="self"/>
-  <link type="text" href="sieben.fr" rel="alternate"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://sieben.fr</id>
-  <author>
-    <name>Rémy Léone</name>
-    <email>remy.leone@gmail.com</email>
-  </author>
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
+ <author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
 
-  {% for post in site.posts %}
-  <entry>
-    <title>{{ post.title }}</title>
-    <link href="http://sieben.fr{{ post.url }}/"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://sieben.fr{{ post.url }}/</id>
-    <content type="html" >{{ post.content | xml_escape }}</content>
-  </entry>
-  {% endfor %}
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
 </feed>
