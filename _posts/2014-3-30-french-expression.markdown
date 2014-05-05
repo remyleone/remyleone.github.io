@@ -3,23 +3,22 @@ title: Funny French idioms.
 layout: article
 ---
 
-Format : French idioms| English translation| word by word translation
-
 Anger
 -----
-|French expression|English expression|Litteral translation|
+
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
-|Péter les plombs| to blow one's top| Bust the fuses (Here the word "plombs" refers to the fuses that melt in order to avoid short-circuit)|
+|Péter les plombs|to blow one's top| Bust the fuses (Here the word "plombs" refers to the fuses that melt in order to avoid short-circuit)|
 |Sortir de ses gonds| to fly off the handle| (The image of a door that come off its hinges)|
 |Se fâcher tout rouge| to go up the wall| to be upset all red|
-|J'ai la moutarde qui me monte au nez| I'm beginning to lose my temper|Mustard is winding up in my nose.|
+|J'ai la moutarde qui me monte au nez|I'm beginning to lose my temper|Mustard is winding up in my nose.|
 |Prendre la mouche| to fly off the handle| Take a fly (This expression is close to "quelle mouche vous a piqué ?/What's with you?") The idea is that a person's sudden outburst is the result of having being stung by an insect.|
 |Avoir les nerfs en pelote|To be on the edge, to be nervy|Got my nerves in a ball (like ball of wool)|
 
 Criticizing
 -----------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Casser du sucre sur le dos de quelqu'un|To bad-month someone|Break sugar on the back of someone|
 |Tailler un costard à quelqu'un|To slag someone off| Cut a suit for someone (The idea here is that once you have a bad reputation it's difficult to lose it. In the same way that a suit cannot be altered once it has been cut to a certain shape)|
@@ -27,14 +26,14 @@ Criticizing
 Annoyance
 ---------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Casser les pieds de quelqu'un| to do someone's head in| Break the feet of someone.|
 
 Getting along (or not)
 ----------------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |S'entendre comme larrons en foire| to be as thick as thieves| agreeing as thieves in a fair.|
 |Être comme cul et chemise| to be inseparable| Be like ass and shirt (more for a friendship than a love).|
@@ -45,7 +44,7 @@ Getting along (or not)
 Love
 ----
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Avoir le coup de foudre| To fall in love at first sight| to be stuck by lightning.|
 |Être un bourreau des coeurs| to be a ladykiller| Being a executioner of hearts.|
@@ -57,7 +56,7 @@ Love
 Truth and lies
 --------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Mentir comme un arracheur de dents| to be a compulsive liar| Lie as a teeth puller (no anaesthetic but don't worry you will not feel pain).|
 |Raconter des salades| to tell fibs| Tell salads.|
@@ -70,7 +69,7 @@ Truth and lies
 Fear and worry
 --------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Serrer les fesses|To have the wind up|Tighten the buttocks.|
 |Avoir une peur bleue|To be scared to death|Having blue fear.|
@@ -78,7 +77,7 @@ Fear and worry
 Directness
 ----------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Ne pas y aller par 4 chemins|To go straight to the point|Don't go by 4 different tracks.|
 |Ne pas y aller avec le dos de la cuillère|Not to go for half-measures|Not to dish things out using the back of a spoon.|
@@ -86,7 +85,7 @@ Directness
 Speaking and keeping silent
 ---------------------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Tenir la jambe à quelqu'un|To bore someone with one's talk|Hold the leg of someone (picture someone who wants to go away).
 |Souler quelqu'un| to bore someone silly|Make someone drunk.|
@@ -95,21 +94,21 @@ Speaking and keeping silent
 Surprise
 --------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Couper le sifflet à quelqu'un|To shut someone up|Cut the whistle of somebody.|
 
 Happiness
 ---------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Être au anges|To be walking on air|Be with the angels.|
 
 Sadness
 -------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Avoir le cafard|To feel down|To have the cockroach.|
 |Être malheureux comme les pierres|To be utterly miserable|Be as sad as a rock.|
@@ -118,7 +117,7 @@ Sadness
 Madness
 -------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Il ne tourne pas rond| he's not all there| he is not turning around.|
 |Être timbré| to be cracked|To be stamped.|
@@ -128,7 +127,7 @@ Madness
 Stupidity
 ---------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Il n'a pas inventé l'eau chaude|He'll never set the Thames on fire|He didn't invented warm water.|
 |Être bête à manger du foin|To be as thick as two shorts planks|Be stupid enough to eat hay.|
@@ -139,14 +138,14 @@ Stupidity
 Hunger and eating
 -----------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Avoir les crocs|To be famished|Got the fangs.|
 
 Drinking
 --------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Boire comme un trou|To drink like a fish|Drink like a hole.|
 |Avoir la gueule de bois|To be hangover|Having a wooden face.|
@@ -157,7 +156,7 @@ Drinking
 Doing things easily
 -------------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Ce n'est pas la mer à boire|It's no big deal|It's not the sea to drink.|
 |Faire quelque chose les doigts dans le nez|To do something very easily|Do something with fingers in the nose.|
@@ -184,14 +183,14 @@ Work and effort
 Success
 -------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Marcher comme sur des roulettes| to be going very smoothly| work on roulette (little wheels).|
 
 Inferiority
 -----------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Ses rivaux ne lui arrivent pas à la cheville| non of his rivals can touch him| his rivals doesn't even height match his anckles.|
 |ça ne vaut pas un clou| it's not worth a bean| it doesn't worth a nail.|
@@ -199,14 +198,14 @@ Inferiority
 Authority and obediance
 -----------------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Mener quelqu'un à la baguette| to rule someone with a rod of iron| lead someone with a stick.|
 
 Enjoying oneself
 ----------------
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |S'en payer une tranche|to have a whale of a time|to pay one's slice.|
 |s'éclater comme une bête|to have a wild time|to bust like a beast.|
@@ -214,7 +213,7 @@ Enjoying oneself
 Money
 -----
 
-|French expression|English expression|Litteral translation|
+|French expression|English expression|Literal translation|
 |-----------------|:------------------:|--------------------|
 |Couter la peau des fesses|To cost an arm and a leg|To cost skin of butt.|
 |Jeter l'argent par les fenêtres|To throw money down the drain|To throw money through the windows.|
