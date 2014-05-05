@@ -1,54 +1,15 @@
 <!DOCTYPE html>
-<!--[if lte IE 7]>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<![endif]-->
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="Remy Leone webpage.">
-    <title>{% unless page.top %}{{ page.title }} | {% endunless %}{{ site.title }}</title>
-    <!--<title>Rémy Léone | sieben.fr</title>-->
-    <meta name='author' content="Rémy 'Sieben' Léone"/>
-    <meta name="google-site-verification" content="usXqcEYsUxGfwvsFdm_zGD7c2wSD8SNq3cj6O_VQwoU"/>
-    <link href='/css/bootstrap.css' rel='stylesheet'/>
-    <link href='/css/code.css' rel='stylesheet'/>
-    <link href='/css/bootstrap-responsive.css' rel="stylesheet">
-    <link href='/css/docs.css' rel='stylesheet'/>
-    <!--<link href='/css/stacklayout.css' media='all' rel='stylesheet' type='text/css' />-->
-    <!--[if lte IE 7]>
-    <link href='/css/stacklayout_lte_ie7.css' media='all' rel='stylesheet' type='text/css' />
-    <![endif]-->
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--<link href='/css/main.css' media='all' rel='stylesheet' type='text/css'/>-->
-  </head>
-  <body>
-    {% include navbar.html %}
-    <!--<a href="//github.com/sieben"><img style="position: absolute; top: 0; right: 0; border: 0;" src="//s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>-->
-    <div class="span3">
-      <div class="well sidebar-nav">
-        <img alt='My face' src='//fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/275438_593375686_6720633_n.jpg'/>
-        <h2>About me</h2>
-        I'm a PhD-student
-        <a href='//twitter.com/TelecomPTech'>@TelecomPTech</a> and
-        <a href='//twitter.com/thalesgroup'>@thalesgroup</a>
-        <ul class="nav nav-list">
-          <li class="nav-header">Me elsewhere</li>
-          <li><a href="//twitter.com/#!/remyleone">Twitter</a></li>
-          <li><a href="//github.com/sieben">github</a></li>
-          <li><a href="//delicious.com/sieben">delicious</a></li>
-          <li><a href="//linkedin.com/in/remyleone">Linkedin</a></li>
-        </ul>
-      </div><!--/.well -->
-    </div><!--/span-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-    <div class='content span9'>
+  {% include head.html %}
+
+  <body class='theme-base-08'>
+
+    {% include sidebar.html %}
+
+    <div class="content container">
       {{ content }}
-      <hr>
-      {% include footer.html %}
     </div>
-    <script src='//twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js'></script>
+
   </body>
 </html>

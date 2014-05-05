@@ -1,0 +1,21 @@
+<div class="sidebar">
+
+    <div class="container">
+        <div class="sidebar-about">
+            <h1>{{ site.title }}</h1>
+            <p class="lead">{{ site.description }}</p>
+        </div>
+        <div class="sidebar-sticky">
+            <ul class="sidebar-nav">
+
+                {% for social_network in site.social_networks %}
+                <li><i class="fa fa-{{ social_network.logo }}"></i> <a href="{{ social_network.url }}">{{ social_network.name }}</a></li>
+                {% endfor %}
+
+            </ul>
+
+            <a href="/about">About me</a> :: <a href="/colophon">Colophon</a>
+            <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+        </div>
+    </div>
+</div>
