@@ -1,6 +1,7 @@
 ---
 title: Colophon
 layout: page
+description: List of tools that Remy Leon use to get stuff done.
 ---
 
 Every line of the code and articles that make this website what it is

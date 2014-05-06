@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+description: More information about Remy Leone
 ---
 
 Here's what I look like:
