@@ -3,8 +3,6 @@ title: What's a french prepa?
 layout: article
 ---
 
-(from [here](http://www.jppanaget.com/doku.php/wiki:maths_sup-spe))
-
 The 'classes préparatoires aux grandes écoles' (CPGE), commonly called 'classes
 prépas' or 'prépas', are a two-year curriculum extensible to three-years,
 acting as a prep course with the main goal of training undergraduate students
