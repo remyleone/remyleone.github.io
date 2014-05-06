@@ -12,21 +12,21 @@ see how technologies coming from the web can help design better constrained
 networks.
 
 Association I care about:
-=========================
+-------------------------
 
 - [Paris Montagne](//paris-montagne.org) The association I'm a
   volunteer in. Check us out, we do science, try to hack education
   and it's awesome! :)
 
 Programming Achievements
-========================
+------------------------
 
 ![Project Euler ranking](//projecteuler.net/profile/sieben.png)
 
 You can also check out my [Github Page](//github.com/sieben).
 
 Reading list:
-=============
+-------------
 
 - [Hackers News](//news.ycombinator.com)
 - [XKCD](//xkcd.com)
@@ -62,13 +62,13 @@ research](//www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
 and writing you may want to check.
 
 Podcasts I like to listen:
-==========================
+--------------------------
 
 - [You are not so smart](//youarenotsosmart.com) A celebration of self delusion.
 - [Freakonomics](//freakonomics.com) The hidden side of everything.
 
 Why sieben?
-===========
+-----------
 
 - 7 is a prime number.
 - 007 is classy.
