@@ -2,7 +2,7 @@
 title: What's a french prepa?
 layout: article
 description: Description of the french prepa system
-teaser: Foreign graduate student look what you might have missed.
+teaser: Foreign graduate students look what you might have missed.
 ---
 
 The 'classes préparatoires aux grandes écoles' (CPGE), commonly called 'classes
