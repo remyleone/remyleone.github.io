@@ -1,9 +1,10 @@
---- 
+---
 layout: article
 description: Importance of stupidity in scientific research.
+teaser: We all have our chance.
 title: The importance of stupidity in scientific research
-tags: 
-  - research 
+tags:
+  - research
 ---
 
 _by Martin A. Schwartz_ ([Original

@@ -1,7 +1,8 @@
 ---
 layout: article
 title: ssh trick for heavy github user
-description: Trick to ssh without a password
+teaser: Look ma, no password :)
+description: ssh without a password using keys and config file
 tags:
   - code
   - productivity

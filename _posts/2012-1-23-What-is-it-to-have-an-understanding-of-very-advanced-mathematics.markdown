@@ -1,6 +1,7 @@
 ---
 layout: article
 title: What Is It Like to Have an Understanding of Very Advanced Mathematics?
+teaser: 101 for handling mathematicians
 tags:
 - science
 - math

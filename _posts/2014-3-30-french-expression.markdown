@@ -1,6 +1,8 @@
 ---
 title: Funny French idioms.
 layout: article
+description: Funny French expression translated literally
+teaser: Useful to avoid awkward confusions
 ---
 
 Anger

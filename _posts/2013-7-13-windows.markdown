@@ -1,6 +1,7 @@
 ---
-title: Memo sur windows.
+title: Services lourds de windows.
 layout: article
+teaser: Your poor computer is running a bad enough OS. Give it a break!
 description: Very heavy windows services
 ---
 
