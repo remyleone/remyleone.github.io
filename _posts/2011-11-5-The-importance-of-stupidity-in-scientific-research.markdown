@@ -1,5 +1,6 @@
 --- 
 layout: article
+description: Importance of stupidity in scientific research.
 title: The importance of stupidity in scientific research
 tags: 
   - research 

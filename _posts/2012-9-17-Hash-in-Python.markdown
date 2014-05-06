@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Hash in Python
+description: Quick snippet to create an hash in python
 tags:
   - code
   - python

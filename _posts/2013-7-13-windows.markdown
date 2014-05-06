@@ -1,6 +1,7 @@
 ---
 title: Memo sur windows.
 layout: article
+description: Very heavy windows services
 ---
 
 Services très lourds
