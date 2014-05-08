@@ -10,7 +10,7 @@ exclude: ["readme.markdown"]
 title: Rémy Léone
 tagline: "Remy Leone's website"
 url: "http://sieben.fr"
-description: 'PhD student working in the field of WSN'
+description: 'PhD student working in the field of Wireless Sensor Networks'
 social_networks:
     - name: github
       url: https://github.com/sieben
