@@ -2,7 +2,6 @@ destination: ./_site
 markdown: kramdown
 permalink: pretty
 pygments: true
-paginate: 5
 archive_path: /archive
 categories_path : /categories
 tags_path : /tags
@@ -27,3 +26,5 @@ social_networks:
 
 github:
     repo: https://github.com/sieben/sieben.github.com
+gems:
+    - jekyll-sitemap
