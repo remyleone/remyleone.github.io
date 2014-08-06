@@ -3,6 +3,9 @@ layout: article
 teaser: Some useful shortcuts
 ---
 
+Here is some commands that you can use inside a terminal and/or when you are
+typing on a UNIX like terminal.
+
 BOFH Excuses
 ------------
 
