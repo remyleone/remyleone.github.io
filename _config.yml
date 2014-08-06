@@ -1,7 +1,7 @@
 destination: ./_site
 markdown: kramdown
 permalink: pretty
-pygments: true
+highlighter: rouge
 archive_path: /archive
 categories_path : /categories
 tags_path : /tags
