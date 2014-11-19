@@ -4,10 +4,6 @@ title: Rémy, what's your PhD is about?
 description: A little story to explain what my PhD is about
 ---
 
-Rémy, what's your PhD is about?
-===============================
-
-
 Well, that's an interesting question. Through time I've found a couple of
 tricks to explain what I do. This text will be a summary of it.
 
