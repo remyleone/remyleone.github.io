@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rémy, what's your PhD is about?
+title: Rémy, what's your PhD about?
 description: A little story to explain what my PhD is about
 ---
 
