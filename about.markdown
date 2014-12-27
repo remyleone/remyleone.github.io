@@ -79,3 +79,8 @@ Why sieben?
 - 007 is classy.
 - I like German (even if I don't speak it).
 - It's short for a domain name and can be type quickly.
+
+My wishlists
+------------
+
+You can find my wishlists by clicking [here](/wishlist)
