@@ -63,7 +63,7 @@ research](//www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
 and writing you may want to check.
 
 - [Devenez beau, riche et intelligent, avec PowerPoint, Excel et Word
-  ](//http://pauillac.inria.fr/~weis/info/haladjian.pdf) Very funny in French
+  ](//pauillac.inria.fr/~weis/info/haladjian.pdf) Very funny in French
   of course ;)
 
 Podcasts I like to listen:
