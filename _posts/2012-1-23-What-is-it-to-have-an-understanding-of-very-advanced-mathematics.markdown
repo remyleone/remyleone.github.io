@@ -7,8 +7,7 @@ tags:
 - math
 ---
 
-
-from [link](https://www.quora.com/Mathematics/What-is-it-like-to-understand-advanced-mathematics/answers/873950?srid=XBsZ&share=1)
+from [link](//www.quora.com/Mathematics/What-is-it-like-to-understand-advanced-mathematics/answers/873950?srid=XBsZ&share=1)
 
 You can answer many seemingly difficult questions quickly.
 ----------------------------------------------------------
