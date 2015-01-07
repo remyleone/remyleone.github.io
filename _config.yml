@@ -6,6 +6,8 @@ archive_path: /archive
 categories_path : /categories
 tags_path : /tags
 exclude: ["readme.markdown"]
+sass:
+  style: :compressed
 title: Rémy Léone
 tagline: "Remy Leone's website"
 url: "http://sieben.fr"
