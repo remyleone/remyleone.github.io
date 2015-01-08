@@ -33,6 +33,20 @@ Required material
   running windows I can find workarounds.
 - If you have some raspberry pi/Arduino available that would be great. Otherwise I will see if I can bring some with me.
 
+Agenda
+------
+
+| Day 1  |             Presentation            |
+| Day 2  |        Life of a Web Request        |
+| Day 3  |           Life of an Email          |
+| Day 4  |          Life of a torrent          |
+| Day 5  |          Life of a web chat         |
+| Day 6  |     Life of an Autonomous System    |
+| Day 7  | Life of a request inside a computer |
+| Day 8  |        Life of a Wifi Network       |
+| Day 9  |          Internet of Things         |
+| Day 10 |                Sum up               |
+
 
 The part where I talk about myself with the third pronon
 --------------------------------------------------------
