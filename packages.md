@@ -22,7 +22,7 @@ Programming
 	sudo apt-get install clang valgrind
 	sudo apt-get install pypy python-pip
 	sudo apt-get install openjdk-7-jdk gradle
-	sudo apt-get install pandoc texlive-luatex texlive-xetex texlive-fonts-extra texlive-pstricks texlive-science texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended
+	sudo apt-get install pandoc texlive-luatex texlive-xetex texlive-fonts-extra texlive-pstricks texlive-science texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dvipng
 
 Network
 -------
