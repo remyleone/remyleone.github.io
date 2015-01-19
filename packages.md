@@ -32,7 +32,7 @@ Network
 Graphics
 --------
 
-	sudo apt-get install inkscape gimp typecatcher
+	sudo apt-get install inkscape gimp typecatcher imagemagick
 	sudo apt-get install vlc mplayer 
 
 Editors
@@ -54,7 +54,11 @@ Python libs
 -----------
 
 	sudo apt-get install python-numpy python-matplotlib ipython ipython3
-	pip install --user --upgrade pandas networkx django flask youtube-dl tornado scipy requests uwsgi six snakefood nose jinja2 gunicorn celery ansible beautifulsoup4 gevent sphinx fabric
+	pip install --user --upgrade pandas networkx scipy
+  pip install --user --upgrade django flask tornado gunicorn celery nose gevent requests uwsgi jinja2 sphinx
+  pip install --user --upgrade youtube-dl periscope beautifulsoup4
+  pip install --user --upgrade six snakefood pep8 pyflakes
+  pip install --user --upgrade ansible fabric
 
 Non packaged
 ------------
