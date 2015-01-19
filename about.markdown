@@ -66,6 +66,8 @@ and writing you may want to check.
   ](//pauillac.inria.fr/~weis/info/haladjian.pdf) Very funny in French
   of course ;)
 
+- [Epigrams in programming](http://www.cs.yale.edu/homes/perlis-alan/quotes.html)
+
 Podcasts I like to listen:
 --------------------------
 
