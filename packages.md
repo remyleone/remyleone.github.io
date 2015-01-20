@@ -6,7 +6,7 @@ title: Laptop provisionning
 System
 ------
 
-	sudo apt-get install nfs-common openvpn virtualbox
+	sudo apt-get install nfs-common openvpn virtualbox tree
 
 Terminal
 --------
