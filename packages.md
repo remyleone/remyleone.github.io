@@ -55,7 +55,7 @@ Python libs
 
 	sudo apt-get install python-numpy python-matplotlib ipython ipython3
 	pip install --user --upgrade pandas networkx scipy
-	pip install --user --upgrade django flask tornado gunicorn celery nose gevent requests uwsgi jinja2 sphinx
+	pip install --user --upgrade django flask tornado gunicorn celery nose gevent requests uwsgi jinja2 sphinx scrapy
 	pip install --user --upgrade youtube-dl periscope beautifulsoup4
 	pip install --user --upgrade six snakefood pep8 pyflakes
 	pip install --user --upgrade ansible fabric
