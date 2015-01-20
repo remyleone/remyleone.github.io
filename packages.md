@@ -6,44 +6,53 @@ title: Laptop provisionning
 System
 ------
 
-	sudo apt-get install nfs-common openvpn virtualbox tree
+	sudo apt-get install nfs-common openvpn virtualbox aptitude wine rar
+	sudo apt-get install htop dstat pwgen
+	sudo apt-get install nautilus-open-terminal
 
 Terminal
 --------
 
-	sudo apt-get tmux vim-nox irssi mosh ack-grep
+	sudo apt-get install tmux vim-nox irssi mosh tree ack-grep screen
+	sudo apt-get install typespeed rxvt-unicode
 	wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 
 Programming
 -----------
 
-	sudo apt-get install subversion git-core mercurial cvs
+	sudo apt-get install build-essential
+	sudo apt-get install subversion git-core mercurial cvs tig
 	sudo apt-get install meld
-	sudo apt-get install clang valgrind
+	sudo apt-get install doxygen asciidoc
+	sudo apt-get install clang valgrind cmake cppcheck splint
 	sudo apt-get install pypy python-pip
-	sudo apt-get install openjdk-7-jdk gradle
-	sudo apt-get install pandoc texlive-luatex texlive-xetex texlive-fonts-extra texlive-pstricks texlive-science texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dvipng
+	sudo apt-get install openjdk-7-jdk gradle ant maven
+	sudo apt-get install coffeescript nodejs nodejs-legacy npm
+	sudo apt-get install pandoc texlive-luatex texlive-extra-utils texlive-bibtex-extra texlive-formats-extra texlive-math-extra texlive-xetex texlive-fonts-extra texlive-pstricks texlive-science texlive-latex-base texlive-latex3 texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dvipng latexmk texstudio
 
 Network
 -------
 
-	sudo apt-get install curl wget tshark nmap wireshark scapy
+	sudo apt-get install vlan bridge-utils dnssec-tools
+	sudo apt-get install curl lftp wget rsync tshark nmap elinks rtorrent
+	sudo apt-get install mutt offlineimap
+	sudo apt-get install wireshark scapy tsung filezilla siege hping3
 
 Graphics
 --------
 
-	sudo apt-get install inkscape gimp typecatcher imagemagick
+	sudo apt-get install inkscape gimp typecatcher imagemagick gnuplot webp graphviz
 	sudo apt-get install vlc mplayer 
 
 Editors
 -------
 
-	sudo apt-get install vim-nox exuberant-ctags geany
+	sudo apt-get install vim-nox exuberant-ctags geany exuberant-ctags ghex
 
 Ebooks
 ------
 
-	sudo apt-get install calibre
+	sudo apt-get install calibre comix
 
 Ruby libs
 ---------
