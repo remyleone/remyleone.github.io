@@ -35,6 +35,7 @@ Network
 
 	sudo apt-get install vlan bridge-utils dnssec-tools
 	sudo apt-get install curl lftp wget rsync tshark nmap elinks rtorrent
+	sudo apt-get install netcat socat
 	sudo apt-get install mutt offlineimap
 	sudo apt-get install wireshark scapy tsung filezilla siege hping3
 
