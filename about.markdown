@@ -86,3 +86,26 @@ My wishlists
 ------------
 
 You can find my wishlists by clicking [here](/wishlist)
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressRegion": "Ile de France",
+    "postalCode": "75013",
+    "streetAddress": "23 Avenue d'Italie"
+  },
+  "colleague": [
+    "http://perso.telecom-paristech.fr/~chaudet"
+  ],
+  "email": "mailto:remy.leone@telecom-paristech.fr",
+  "image": "https://raw.githubusercontent.com/sieben/dotfiles/gh-pages/avatar/face.jpg",
+  "jobTitle": "PhD student",
+  "name": "Remy Leone",
+  "telephone": "+33667564022",
+  "url": "http://www.sieben.fr"
+}
+</script>
