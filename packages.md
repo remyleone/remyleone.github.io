@@ -13,7 +13,7 @@ System
 Terminal
 --------
 
-	sudo apt-get install tmux vim-nox irssi mosh tree ack-grep screen
+	sudo apt-get install tmux vim-nox irssi mosh tree ack-grep silversearcher-ag screen
 	sudo apt-get install typespeed rxvt-unicode
 	wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 
