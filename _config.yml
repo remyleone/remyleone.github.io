@@ -28,3 +28,6 @@ social_networks:
 
 github:
     repo: https://github.com/sieben/sieben.github.com
+
+gems:
+  - jekyll-sitemap
