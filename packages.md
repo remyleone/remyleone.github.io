@@ -9,6 +9,7 @@ System
 	sudo apt-get install nfs-common openvpn virtualbox aptitude wine rar
 	sudo apt-get install htop dstat pwgen
 	sudo apt-get install nautilus-open-terminal
+	sudo apt-get install dos2unix
 
 Terminal
 --------
@@ -28,7 +29,7 @@ Programming
 	sudo apt-get install pypy python-pip
 	sudo apt-get install openjdk-7-jdk gradle ant maven
 	sudo apt-get install coffeescript nodejs nodejs-legacy npm
-	sudo apt-get install pandoc texlive-luatex texlive-extra-utils texlive-bibtex-extra texlive-formats-extra texlive-math-extra texlive-xetex texlive-fonts-extra texlive-pstricks texlive-science texlive-latex-base texlive-latex3 texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dvipng latexmk texstudio
+	sudo apt-get install pandoc texlive-generic-extra texlive-lang-french texlive-luatex texlive-extra-utils texlive-bibtex-extra texlive-formats-extra texlive-math-extra texlive-xetex texlive-fonts-extra texlive-pstricks texlive-science texlive-latex-base texlive-latex3 texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dvipng latexmk texstudio
 
 Network
 -------
