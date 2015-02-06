@@ -82,6 +82,7 @@ Non packaged
 - [rvm](//rvm.io/)
 - [vagrant](//vagrantup.com/)
 - [Skype](//www.skype.com/fr/download-skype/skype-for-computer/)
+- [Language Tool](//languagetool.org)
 
 Dotfiles
 --------
