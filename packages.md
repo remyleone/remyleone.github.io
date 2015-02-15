@@ -10,6 +10,7 @@ System
 	sudo apt-get install htop dstat pwgen
 	sudo apt-get install nautilus-open-terminal
 	sudo apt-get install dos2unix
+ 	sudo apt-get install ngrok-server ngrok-client
 
 Terminal
 --------
