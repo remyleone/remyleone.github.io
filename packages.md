@@ -11,7 +11,7 @@ System
 	sudo apt-get install nautilus-open-terminal
 	sudo apt-get install dos2unix
  	sudo apt-get install ngrok-server ngrok-client
-  sudo apt-get install linux-tools-common
+  sudo apt-get install linux-tools-common linux-tools-generic
 
 Terminal
 --------
