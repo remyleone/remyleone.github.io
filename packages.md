@@ -10,8 +10,8 @@ System
 	sudo apt-get install htop dstat pwgen
 	sudo apt-get install nautilus-open-terminal
 	sudo apt-get install dos2unix
- 	sudo apt-get install ngrok-server ngrok-client
-  sudo apt-get install linux-tools-common linux-tools-generic
+	sudo apt-get install ngrok-server ngrok-client
+	sudo apt-get install linux-tools-common linux-tools-generic
 
 Terminal
 --------
@@ -46,7 +46,8 @@ Graphics
 --------
 
 	sudo apt-get install inkscape gimp typecatcher imagemagick gnuplot webp graphviz
-	sudo apt-get install vlc mplayer 
+	sudo apt-get install vlc mplayer
+	sudo apt-get install handbrake
 
 Editors
 -------
