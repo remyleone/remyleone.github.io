@@ -87,6 +87,7 @@ Non packaged
 - [vagrant](//vagrantup.com/)
 - [Skype](//www.skype.com/fr/download-skype/skype-for-computer/)
 - [Language Tool](//languagetool.org)
+- [Docker](//get.docker.io/ubuntu)
 
 Dotfiles
 --------
