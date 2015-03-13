@@ -2,7 +2,7 @@ install:
     - sudo apt-get install tidy
 
 before_install:
-    - gem install jekyll
+    - gem install jekyll jekyll-sitemap
 
 script:
     - jekyll build
