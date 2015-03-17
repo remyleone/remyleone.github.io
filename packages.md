@@ -58,7 +58,7 @@ Editors
 Ebooks
 ------
 
-	sudo apt-get install calibre comix
+	sudo apt-get install calibre comix xchm
 
 Ruby libs
 ---------
