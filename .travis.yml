@@ -1,5 +1,5 @@
-install:
-    - sudo apt-get install tidy
+sudo: false
+language: ruby
 
 before_install:
     - gem install jekyll jekyll-sitemap
