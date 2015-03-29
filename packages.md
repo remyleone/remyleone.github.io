@@ -53,7 +53,7 @@ Graphics
 Editors
 -------
 
-	sudo apt-get install vim-nox exuberant-ctags geany exuberant-ctags ghex
+	sudo apt-get install vim-nox exuberant-ctags geany exuberant-ctags ghex libreoffice-java-common
 
 Ebooks
 ------
