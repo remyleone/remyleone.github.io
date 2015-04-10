@@ -50,7 +50,7 @@ Graphics
 	sudo apt-get install inkscape gimp typecatcher imagemagick gnuplot webp graphviz
 	sudo apt-get install vlc mplayer
 	sudo apt-get install handbrake
-	sudo apt-get install gphotofs
+	sudo apt-get install gphotofs ufraw gnome-raw-thumbnailer darktable
 
 Editors
 -------
