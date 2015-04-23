@@ -19,6 +19,7 @@ Terminal
 
 	sudo apt-get install tmux vim-nox irssi mosh tree ack-grep silversearcher-ag screen
 	sudo apt-get install typespeed rxvt-unicode
+	sudo apt-get install units
 	wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 
 Programming
@@ -49,6 +50,7 @@ Graphics
 	sudo apt-get install inkscape gimp typecatcher imagemagick gnuplot webp graphviz
 	sudo apt-get install vlc mplayer
 	sudo apt-get install handbrake
+	sudo apt-get install gphotofs ufraw gnome-raw-thumbnailer darktable
 
 Editors
 -------
