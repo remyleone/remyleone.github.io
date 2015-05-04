@@ -12,7 +12,7 @@ System
 	sudo apt-get install dos2unix
 	sudo apt-get install parallel
 	sudo apt-get install ngrok-server ngrok-client
-	sudo apt-get install linux-tools-common linux-tools-generic
+	sudo apt-get install linux-tools-common linux-tools-generic sysstat
 
 Terminal
 --------
