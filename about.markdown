@@ -68,6 +68,8 @@ and writing you may want to check.
 
 - [Epigrams in programming](http://www.cs.yale.edu/homes/perlis-alan/quotes.html)
 
+- [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+
 Podcasts I like to listen:
 --------------------------
 
