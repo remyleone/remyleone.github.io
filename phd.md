@@ -39,3 +39,14 @@ much as possible what is going on by simply observing and being smart.
 
 Now replace these little workers by little computers that will probably spread
 in the next decades our world and you have a quick view on why I care.
+
+
+## Some links
+
+:us:
+
+- [A nice interactive primer about IoT](http://www.informationisbeautiful.net/visualizations/the-internet-of-things-a-primer/)
+
+:fr:
+
+- [Une petite présentation](//img.sieben.fr/iot.pdf)
