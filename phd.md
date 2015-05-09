@@ -46,6 +46,7 @@ in the next decades our world and you have a quick view on why I care.
 :us:
 
 - [A nice interactive primer about IoT](http://www.informationisbeautiful.net/visualizations/the-internet-of-things-a-primer/)
+- [Swarm intelligence](http://news.harvard.edu/gazette/story/2014/08/the-1000-robot-swarm/)
 
 :fr:
 
