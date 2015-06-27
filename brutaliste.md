@@ -99,8 +99,8 @@ sinon pour en réfuter la portée. Le brutaliste compte les morts, il maîtrise
 les concepts d’effet de seuil et de moyenne, et s’il faut en arriver là, le
 brutaliste sortira son smartphone au débotté pour appuyer sa démonstration.
 
-Le brutaliste est un punk à lunettes. Le brutaliste n’est cependant pas bigleux
-: il est vain d’espérer lui faire prendre une émotion pour un argument valable.
+Le brutaliste est un punk à lunettes. Le brutaliste n’est cependant pas bigleux: 
+il est vain d’espérer lui faire prendre une émotion pour un argument valable.
 
 Le brutaliste ne considère pas la logique comme le moyen exclusif d’atteindre
 la Vérité, cependant il lui semble qu’elle constitue le chemin le plus sûr pour
