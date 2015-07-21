@@ -27,3 +27,9 @@ You are not so smart
 --------------------
 
 - [Confirmation Bias t-shirt](//youarenotsosmart.merchtable.com/shirts/confirmation-bias-t-shirt#.VJ69qAD1I)
+
+
+Pershing
+--------
+
+- [Python Fractal](http://www.cafepress.com/preshing.571773444)
