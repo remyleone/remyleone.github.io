@@ -31,4 +31,5 @@ github:
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
   - jemoji
