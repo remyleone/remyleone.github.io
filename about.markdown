@@ -6,7 +6,7 @@ description: More information about Remy Leone
 
 Here's what I look like:
 
-![Here is my face](http://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/275438_593375686_6720633_n.jpg)
+![Here is my face](/me.jpg)
 
 I'm a PhD student working in the field of Wireless Sensors Networks. I try to
 see how technologies coming from the web can help design better constrained
