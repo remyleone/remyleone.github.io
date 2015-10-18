@@ -12,6 +12,11 @@ I'm a PhD student working in the field of Wireless Sensors Networks. I try to
 see how technologies coming from the web can help design better constrained
 networks.
 
+Check out my resume:
+
+[:fr:](/cv_fr_leone_remy.pdf)
+[:uk:](/cv_en_leone_remy.pdf)
+
 Association I care about:
 -------------------------
 
@@ -82,7 +87,7 @@ Why sieben?
 - 7 is a prime number.
 - 007 is classy.
 - I like German (even if I don't speak it).
-- It's short for a domain name and can be type quickly.
+- It's short and can be typed quickly.
 
 My wishlists
 ------------

@@ -5,7 +5,7 @@ highlighter: pygments
 archive_path: /archive
 categories_path : /categories
 tags_path : /tags
-exclude: ["readme.markdown"]
+exclude: ["readme.markdown", "resume"]
 sass:
   style: :compressed
 title: Rémy Léone

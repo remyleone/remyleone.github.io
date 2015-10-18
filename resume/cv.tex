@@ -1,0 +1,456 @@
+\documentclass[10pt,a4paper]{moderncv}
+
+% TODO
+% - Handle empty logo cases
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage{fontawesome}
+
+
+\usepackage{nag}
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+%\usepackage[scale=0.8,top=2cm]{geometry}
+%\setlength{\hintscolumnwidth}{2.5cm}
+
+\newif\iffr
+\ifthenelse{\equal{\detokenize{fr}}{\jobname}}{\frtrue}{\frfalse}
+\newcommand{\lang}[2]{\iffr{#2}\else{#1}\fi}
+
+\usepackage[english, french]{babel}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{pbox}
+\usepackage{amssymb}
+\usepackage{keycommand}
+\usepackage{biblatex}
+\usepackage{graphicx}
+\usepackage{pgffor}
+\graphicspath{{logo/}}
+
+\addbibresource{citations.bib}
+
+\newcommand{\tpt}{\href{http://www.telecom-paristech.fr/\lang{eng/}{}}{Telecom ParisTech}}
+\newcommand{\tptfull}{\tpt, Paris, France}
+\newcommand{\iie}{\href{http://www.ensiie.fr}{ENSIIE}}
+\newcommand{\iiefull}{\iie, Evry, France}
+\newcommand{\upmc}{UPMC / \href{http://www.lip6.fr}{LIP6}}
+\newcommand{\lincs}{\href{http://www.lincs.fr}{LINCS}}
+\newcommand{\lincsfull}{\lincs, Paris, France}
+
+\newcommand{\jl}{Jeremie \textsc{Leguay}}
+\newcommand{\jr}{Jean-Louis \textsc{Rougier}}
+\newcommand{\vc}{Vania \textsc{Conan}}
+\newcommand{\paolo}{Paolo \textsc{Medagliani}}
+
+\newcommand{\cvlink}[1]{\href{#1}{#1}}
+\newcommand{\flink}[1]{\footnote{\cvlink{#1}}}
+\newcommand{\slink}[1]{\textcolor{gray}{\small\cvlink{#1}}}
+
+\newcommand{\sqb}{\textcolor{color1}{\tiny$\blacksquare$}} 
+
+%%%%%%%%%%
+% Colors %
+%%%%%%%%%%
+
+\usepackage{xcolor}
+
+\definecolor{white}{RGB}{255,255,255}
+
+\definecolor{darkgray}{HTML}{333333}
+\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{lightgray}{HTML}{999999}
+
+\definecolor{green}{HTML}{C2E15F}
+\definecolor{orange}{HTML}{FDA333}
+\definecolor{purple}{HTML}{D3A4F9}
+\definecolor{red}{HTML}{FB4485}
+\definecolor{blue}{HTML}{6CE0F1}
+\definecolor{tic}{HTML}{CCCC66}
+\definecolor{tac}{HTML}{666699}
+\colorlet{fillheader}{gray}
+\colorlet{header}{white}
+\colorlet{textcolor}{gray}
+\colorlet{headercolor}{gray}
+
+%%%%%%%%%
+% Fonts %
+%%%%%%%%%
+
+\usepackage{fontspec}
+%\usepackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+
+%\newfontfamily\bodyfont[]{Helvetica Neue}
+%\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
+%\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
+
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
+%\setmainfont[Mapping=tex-text]{Helvetica Neue Light}
+
+%\setmathfont{XITS Math}
+
+%%%%%%%%%%%%%%%%
+% Bibliography %
+%%%%%%%%%%%%%%%%
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\firstname{Rémy}
+\familyname{Léone}
+\title{
+    \lang{Research engineer, PhD student}{Ingénieur de recherche, PhD}
+}
+\email{remy.leone@gmail.com}
+\homepage{sieben.fr}
+\extrainfo{
+  \faTwitter~remyleone \textbullet{} 
+    \faLinkedin~remyleone  \textbullet{}
+    \faGithub~sieben  \textbullet{}
+    \lang{French, 26 yo}{Français, 26 ans}}
+
+%-------------------------------------------------------------------------------
+
+\newcommand*{\multiinclude}[1]{%
+  \foreach \logo in {#1} {%
+     \hspace{1mm}
+     \includegraphics[height=4mm]{\logo}%
+  }%
+}
+
+\newkeycommand{\experience}[year,lab,position,description,advisor,logo][0]
+{
+    \edef\logos{\commandkey{logo}}
+    \cventry{\expandafter\multiinclude\expandafter{\logos}}
+        {\commandkey{position}}
+        {\commandkey{lab}}
+        {\commandkey{year}}{}
+        {\emph{\commandkey{description} (\lang{advisor}{encadrement}: \commandkey{advisor})}}
+}
+
+\newkeycommand{\formation}[year,lab,position,description,logo][0]
+{
+    \edef\logos{\commandkey{logo}}
+    \cventry{\expandafter\multiinclude\expandafter{\logos}}
+        {\commandkey{position}}
+        {\commandkey{lab}}
+        {\commandkey{year}}{}
+        {\emph{\commandkey{description}}}
+}
+
+\newkeycommand{\project}[name,url,description,funding,year,comments,logo][0]
+{
+    {\footnotesize
+        \begin{minipage}[t]{0.15\linewidth}
+            \commandkey{year}
+        \end{minipage}
+        \begin{minipage}[t]{0.35\linewidth}
+            \commandkey{logo} \commandkey{name} (\commandkey{funding})  \\
+            \textcolor{lightgray}{\cvlink{\commandkey{url}}}
+        \end{minipage}
+        \begin{minipage}[t]{0.03\linewidth}
+        \end{minipage}
+        \begin{minipage}[t]{0.47\linewidth}
+            {\itshape\commandkey{description}} \\
+            \commandkey{comments}
+        \end{minipage}
+    }
+    \vspace{2mm}
+}
+
+\newcommand{\projectheader}{
+    {\footnotesize\bfseries
+        \begin{minipage}[t]{0.15\linewidth}
+          \lang{Year}{Participation}
+        \end{minipage}
+        \begin{minipage}[t]{0.35\linewidth}
+            \lang{Name and funding source}{Nom et source de financement}
+        \end{minipage}
+        \begin{minipage}[t]{0.03\linewidth}
+        \end{minipage}
+        \begin{minipage}[t]{0.47\linewidth}
+            \lang{Description and comments}{Description et commentaires}
+        \end{minipage}
+    }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+%-------------------------------------------------------------------------------
+
+\section{\lang{Research experience}{Expérience professionnelle}}
+
+\experience[
+  year = {Jan 2013 - $\sim$ Jan 2016},
+  position = {\lang{PhD Candidate}{Doctorat}},
+  lab = {Telecom Paris Tech \& Thales Communication and Security},
+  advisor = {\jr, \vc},
+  description = {\lang{
+  Title: Smart gateways for low-power and lossy networks.
+  \begin{itemize}
+    \item Workflow for WSN reproducible research with an open source prototype \url{http://github.com/sieben/makesense}
+    \item Worked on gateway caching proxy servers 
+    \item Active \& passive monitoring of constrained networks
+    \item Contiki (C), Java, Wireshark, numpy, matplotlib, pandas, IPython
+  \end{itemize}
+  }
+  {
+  Titre: Passerelle intelligente pour réseau contraint.
+  \begin{itemize}
+    \item Automatisation des processus de simulation et d'expériences reproductibles pour réseau
+    contraints. Prototype libre disponible \url{http://github.com/sieben/makesense}{http://github.com/sieben/makesense}
+    \item Conception et implémentation d'un proxy intelligent couplé à un cache
+    \item Supervision active \& passive d'un réseau contraint
+    \item Contiki (C), Java, Wireshark, numpy, matplotlib, pandas, IPython
+  \end{itemize}
+  }}
+]
+
+\experience[
+  year = {2012},
+  position = {\lang{Final year's internship}{Stage de fin d'études}},
+  lab = {Thales Communications \& Security - Colombes},
+  description = {\lang{
+  Design and implementation of a proxy server for low power and lossy networks with an adaptive cache policy that match lifetime constraints with acceptable network traffic}
+  {Conception et implémentation d'un serveur proxy pour réseau contraint. Cache optimal pour un objectif de durée de vie du réseau fixé} \\
+  Contiki (C), Java, CouchDB
+  },
+  advisor = {\jl, \paolo}
+]
+
+\experience[
+    year = {2010},
+    lab = {CEA - DAM - Bruyères-le-Châtel},
+    position = {\lang{Intern}{Stagiaire}},
+    description = {
+      \lang{Re-factored and debug of a Fortran nuclear physics application}{Re-factorisation et amélioration d'une application de physique nucléaire en Fortran} \\ gfortran, Sun OS, Red Hat Enterprise Linux, Shell
+    },
+    advisor = {Thierry Granier}
+]
+
+%-------------------------------------------------------------------------------
+
+\section{\lang{Education}{Formation}}
+
+%\formation[
+%    year        = {2004--2008},
+%    lab         = {\tptfull~\lang{and}{et} \ftfull (CIFRE)},
+%    position    = {\lang{PhD thesis: ``Flow-level performance guarantees for
+%        traffic in Flow-Aware Networking.''}{Thèse de doctorat: ``Garanties de
+%        performance pour les flots IP dans l'architecture Flow-Aware
+%        Networking.''}},
+%    description = {\lang{%
+%        \emph{Date}: defended on November 27th, 2014 (very honourable mention) \\
+%        \emph{Directors}: M. \dk~\& M. \jr \\
+%        \newline
+%        \emph{Members of the jury}:\newline
+%        {\small
+%        \begin{tabularx}{\textwidth}{XllX}
+%        Mr. \tc   & \footnotesize{Professor}                       & Telecom SudParis                     & president \\
+%        Ms. \igl  & \footnotesize{Professor}                       & ENS Lyon, LIP                        & rapporteur \\
+%        Mr. \su   & \footnotesize{Professor}                       & Queen Mary University of London, UK\hspace{3mm}  & rapporteur \\
+%        Mr. \fm   & \footnotesize{Research Engineer}               & Alcatel Lucent Bell Labs France      & examiner \\
+%        Mr. \dk   & \footnotesize{Professor}                       & Telecom ParisTech                    & academic director \\
+%        Mr. \jr   & \footnotesize{Senior Researcher}\hspace{3mm}   & IRT SystemX                          & industrial director \\
+%        \end{tabularx} 
+%        } 
+%        \newline
+%        $^*$ \footnotesize{work related to the PhD had been completed, but the
+%        defense had been delayed due to the different activities done
+%        afterwards.}
+%    }{
+%        \emph{Date}: soutenue le 27 Novembre 2014 (mention Très Honorable)\\
+%        \emph{Directeurs de thèse}: M. \dk~\& M. \jr \\
+%        \newline
+%        \emph{Membres du jury}:\newline
+%        {\small
+%        \begin{tabularx}{\textwidth}{XllX}
+%        M. \tc     & \footnotesize{Professeur}                   & Telecom SudParis                     & président du jury \\
+%        Mme. \igl  & \footnotesize{Professeur}                   & ENS Lyon, LIP                        & rapporteur \\
+%        M. \su     & \footnotesize{Professeur}                   & Queen Mary University of London, UK\hspace{3mm}  & rapporteur \\
+%        M. \fm     & \footnotesize{Ing. Recherche}               & Alcatel Lucent Bell Labs France      & examinateur \\
+%        M. \dk     & \footnotesize{Professeur}                   & Telecom ParisTech                    & directeur de thèse académique \\
+%        M. \jr     & \footnotesize{Chercheur senior}\hspace{3mm} & IRT SystemX                          & directeur de thèse industriel \\
+%        \end{tabularx} 
+%        } 
+%        \newline
+%        $^*$ \footnotesize{le travail lié à la thèse était terminé, mais la
+%        soutenance a été retardée en raison des différentes activités menées
+%        ensuite.}
+%    }},
+%    %logo        = {tpt,orange},
+%]
+
+\formation[
+    year        = {2010 - 2012},
+    lab         = {\iiefull},
+    position    = {\lang{Degree in Computer Science engineering}{Diplôme d'Ingénieur en Informatique}},
+    description = {\lang{%
+        \emph{major in Operating Systems and Network Administration, Routing and
+        Quality of service, Software certification and System Security.}
+        }{%
+        \emph{spécialités: Systèmes d'exploitation et Administration de
+        réseaux; Routage et Qualité de Service; Preuve formelle et sécurité des
+        systèmes.}
+        }},
+    %logo        = {ensiie},
+]
+
+\formation[
+    year        = {2008 - 2009},
+    lab         = {Lycée Fénelon, Paris, France},
+    position    = {\lang{Preparatory school (French CPGE)}{Classes Préparatoires aux Grandes Ecoles}},
+    description = {\lang{major in Mathematics and Physics.}{spécialités Math-Physique (MP)}},
+]
+
+%-------------------------------------------------------------------------------
+
+\section{\lang{Knowledge and skills}{Connaissances}}
+
+\cvitem{\lang{Theory}{Théorie}}
+    {\lang{Data Analysis, Database Design, Statistics, Optimization, Numerical Analysis; language and compilation
+    theory; graphs and operational research 
+    }{Analyse de données, Conception de base de données, statistiques, optimisation, Analyse numérique; théorie des langages
+    et de la compilation; graphes et recherche opérationnelle;}
+    }
+
+\cvitem{Administration}
+    {\lang{GNU/Linux: System and network administration, Computer Architecture, Operating System} {GNU/Linux: Administration système et réseau, Architecture des ordinateurs, Systèmes d'exploitation}}
+
+\cvitem{Web}{
+  flask, django, nginx, CouchDB, PostgreSQL, redis
+}
+
+\cvitem{SCM}{
+  SVN, git, CVS
+}
+
+\cvitem{\lang{Scientific software}{Logiciels scientifiques}}{
+  pandas, numpy, matplotlib, ipython, \LaTeX{}, R, Octave ($\sim$ Matlab)
+}
+
+\cvitem{\lang{Virtualization}{Virtualisation}}{
+  VirtualBox, Docker, Vagrant
+}
+
+\cvitem{\lang{Networking}{Réseau}}
+    {\lang{Routing and Quality of Service, network architecture and
+    protocols, Wireless}{Routage et Qualité de Service, architecture réseau et
+    protocoles, Sans-fil}, TCP/IP, VPN, Wireshark
+    }
+
+\cvitem{\lang{Programming}{Programmation}}
+    {C, Java, ASM (Intel, 68k), Python, OCaml, Shell, 
+    \lang{Concurrent Programming, several contributions to free software}{Programmation concurrente, plusieurs
+    contributions au logiciel libre}}
+
+\section{\lang{Teaching}{Enseignement}}
+
+\begin{tabularx}{\textwidth}{p{15mm}p{15mm}p{30mm}p{30mm}p{15mm}X}
+\toprule
+Type & \lang{Hours}{Heures} & Audience & \lang{Level}{Niveau} & \lang{Language}{Langue} & Description \\
+\toprule
+
+\lang{Tut/Lab}{TD/TP} & 60.5h & $\sim$ 30 \lang{students}{étudiants} & \lang{1st year eng.}{1A Ingénieur} & FR & \href{http://perso.telecom-paristech.fr/\~chaudet/res101/}{RES101} (BCI Réseaux) \\
+
+    \lang{Tut/Lab}{TD/TP} & 18h & $\sim$ 10 \lang{students}{étudiants} & \lang{International M2}{M2 international} & EN & 
+    \href{http://perso.telecom-paristech.fr/\~chaudet/res841/}{RES841} (Computer Networks) \\
+
+    \lang{Tut/Lab}{TD/TP} & 21h & 26 \lang{students}{étudiants} & \lang{1st year eng.}{1A Ingénieur} & FR & 
+    \href{http://www.infres.enst.fr/~bellot/java/}{INF103} (Java programming) \\
+
+\bottomrule
+\multicolumn{6}{l}{TOTAL: \textbf{99.5 \lang{h}{HETD}}}
+\end{tabularx}
+
+\newpage
+
+\nocite{*}
+\printbibliography[title={Publications}]
+
+% {\tiny
+
+% \begin{refsection}
+%   \nocite{*}
+%   \printbibliography[sorting=chronological, title={\lang{International peer-reviewed journals}{Articles dans des revues
+%   d'audience internationale avec comité de rédaction}}, keyword={journal},
+%   heading=subbibliography, env=my]
+% \end{refsection}
+% \begin{refsection}
+%   \nocite{*}
+%   \printbibliography[sorting=chronological, title={\lang{International peer-reviewed conferences}{Publications dans des manifestations d'audience internationale avec comité de sélection}}, keyword={conference}, heading=subbibliography]
+% \end{refsection}
+% \begin{refsection}
+%   \nocite{*}
+%   \printbibliography[sorting=chronological, title={Workshops}, keyword={workshop}, heading=subbibliography]
+% \end{refsection}
+% \begin{refsection}
+%   \nocite{*}
+%   \printbibliography[sorting=chronological, title={\lang{Selected talks}{Sélection de présentations}}, keyword={invitedtalk}, heading=subbibliography]
+% \end{refsection}
+% \begin{refsection}
+%   \nocite{*}
+%   \printbibliography[sorting=chronological, title={\lang{Selected tutorials}{Sélection de tutoriaux et TP}}, keyword={tutorial}, heading=subbibliography]
+% \end{refsection}
+
+% }
+
+%-------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+
+\section{\lang{Projects and collaborations}{Projets et collaborations}}
+
+\subsection{\lang{Ongoing projects}{Projets en cours}}
+
+\projectheader
+
+\project[
+    year        = {\lang{since}{depuis} 2012},
+    name        = {IRIS},
+    url         = {http://www.anr-iris.fr},
+    funding     = {ANR},
+    description = {All IP Networks for the Future Internet of Smart Objects},
+]
+
+\subsection{\lang{Former projects}{Projets terminés}}
+
+\project[
+    year        = {2011--2013},
+    name        = {Calipso},
+    url         = {http://www.ict-calipso.eu/},
+    funding     = {EU/FP7},
+    description = {Connect All IP-based Smart Objects},
+]
+
+%-------------------------------------------------------------------------------
+
+\section{\lang{Community}{Communauté}}
+
+\begin{itemize}
+  \item \lang{Multiple contributions on code quality and continuous integration in Contiki}{Multiples
+    contributions pour l'amélioration de la qualité du code par l'intégration continue.}
+  \item \lang{Support on open source mailing list}{Assistance et aide aux débutants sur les listes
+    de diffusion}
+    \item \lang{IT administration in a science association}{Administrateur système pour une association de vulgarisation scientifique} (\href{http://paris-montagne.fr}{Paris Montagne})
+\end{itemize}
+
+\section{
+    \lang{Additional information}{Informations diverses}
+}
+
+\cvitem{
+    \lang{Languages}{Langues}
+}{
+    \lang{French (native)}{Français (natif)},
+    \lang{English (fluent)}{Anglais (courant)},
+    \lang{Spanish (high-school level)}{Espagnol (scolaire)},
+}
+
+\end{document}
+
