@@ -10,7 +10,8 @@ sass:
   style: :compressed
 title: Rémy Léone
 tagline: "Remy Leone's website"
-url: "http://sieben.fr"
+url: "https://sieben.fr"
+enforce_ssl: www.sieben.fr   # without any protocol
 description: 'PhD student working in the field of Wireless Sensor Networks'
 social_networks:
     - name: github

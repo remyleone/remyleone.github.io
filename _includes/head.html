@@ -25,6 +25,13 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="/favicon.ico">
 
+  <!-- Redirect HTTPS -->
+  <script type="text/javascript">
+    var host = "www.sieben.fr";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+  </script>
+
   <!-- RSS -->
   {% feed_meta %}
 </head>
