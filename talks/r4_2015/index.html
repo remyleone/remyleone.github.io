@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Makesense - Recherche reproductible dans les réseaux de capteurs - R4 2015</title>
+
+	<meta name="description" content="La recherche reproductible dans les réseaux de capteurs">
+	<meta name="author" content="Remy Leone">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+	var link = document.createElement( 'link' );
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
+	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+	document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Makesense</h1>
+					<h3>La recherche reproductible dans les réseaux de capteurs</h3>
+					<p>
+						<small><a href="//sieben.fr">Rémy Léone</a> / <a href="http://twitter.com/remyleone">@remyleone</a></small>
+					</p>
+					<aside class="notes">
+						Remercier les organisateurs.
+					</aside>
+
+				</section>
+
+				<!-- Contextualisation -->
+				<section>
+					<section>
+						<h2>Qu'est ce qu'un réseau de capteurs ?</h2>
+					</section>
+					<section>
+						<img src="img/motes.jpg" alt="">
+
+					<aside class="notes">
+						Mote sur support USB
+						Développement d'applications simples de relevés
+						Interconnexion en réseau
+						
+					</aside>
+					</section>
+
+					<section>
+						<img src="img/iotlab.jpg" alt="">
+
+					<aside class="notes">
+						Testbed où on teste les protocoles
+						Peut avoir des éléments mobiles
+						Déploiement simple
+					</aside>
+					</section>
+					<section>
+						<h3>Utilisation d'un réseau de capteurs </h3>
+
+						<ul>
+							<li>Smart Parking</li>
+							<li>Smart metering</li>
+							<li>Surveillance de zones</li>
+						</ul>
+						<aside class="notes">
+							Insister sur le fait que les applications sont très diverses et que
+							de nombreux travaux sont en cours sur des fronts très divers.
+						</aside>
+					</section>
+				</section>	
+				
+				<!-- Contextualisation technique -->
+				<section>
+					<section>
+						<h2>Quel est le contexte technique ?</h2>
+					</section>
+					<section>
+						<h3>Réseaux de capteurs</h3>
+
+						<ul>
+							<li>Ressources matérielles limitées</li>
+							<li>Environnement bruité</li>
+						</ul>
+					</section>
+					<section>						
+						<h3>Pour les simulations/expériences</h3>
+
+						<ul>
+							<li>Simulation (COOJA)</li>
+							<li>Emulation de plateforme contrainte (MSPSIM)</li>
+							<li>Déploiement sur des noeuds réels dans un testbed (iotlab)</li>
+						</ul>
+
+						<aside class="notes">
+							Déploiement facile car on utilise le même binaire. Par contre
+							la mise en place d'un environnement de développement et le temps
+							d'itération n'est pas toujours des plus rapide.
+						</aside>
+					</section>
+				</section>
+
+				<!-- Enjeux vis à vis de la conférence -->
+				<section>
+					<section>
+						<h2>Enjeux de la recherche reproductible</h2>
+					</section>
+					<section>
+						<ul>
+							<li>Possibilité de refaire une expérience</li>
+							<li>Possibilité de partager facilement une expérience</li>
+							<li>Réduire le temps de "démarrage"</li>
+						</ul>
+
+						<aside class="notes">
+							La recherche ici a un doublé intérêt. Elle montre toutes
+							les hypothèses utilisées mais elle permet aussi d'éviter
+							les eceuils pour mettre en place un environnement de 
+							développement.
+						</aside>
+					</section>
+				</section>
+
+				<!-- Solution proposées -->
+				<section>
+					<section>
+						<h2>Solution proposée</h2>
+					</section>
+					<section>
+						<h3>Makesense</h3>
+
+						<ul>
+							<li>Décompose une étape en une série d'étapes indépendantes les unes des autres</li>
+							<li>Permet d'avoir une execution commune dans des contextes différents</li>
+							<li>Intégration continue</li>
+							<li>Codé en Python</li>
+						</ul>
+						<aside class="notes">
+							Evite de partager un seul gros script illisible et qui nécessite de
+							faire une execution supplémentaire chaque fois que l'on change un paramètre.
+
+							Evite par exemple d'avoir deux chemins d'executions séparés pour les cas de simulations
+							et les cas de déploiements sur testbed.
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Étapes</h2>
+
+						<ul>
+							<li>Création</li>
+							<li>Execution</li>
+							<li>Parse</li>
+							<li>Analyse</li>
+							<li>Plot</li>
+							<li>Partage</li>
+							<li>Intégration Continue</li>
+						</ul>
+<!-- 						<table>
+							<thead>
+								<tr>
+									<th>Etape</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Create</td>
+									<td>Jinja2</td>
+								</tr>
+								<tr>
+									<td>Create</td>
+									<td>Jinja2</td>
+								</tr>
+								<tr>
+									<td>Execution</td>
+									<td><a href="//www.fabfile.org">Fabric</a></td>
+								</tr>
+								<tr>
+									<td>Analyse / Exploration</td>
+									<td><a href="//pandas.pydata.org">Pandas</a></td>
+								</tr>
+								<tr>
+									<td>Representation</td>
+									<td><a href="//matplotlib.org">matplotilb</a></td>
+								</tr>
+								<tr>
+									<td>Intégration Continue</td>
+									<td><a href="//travis-ci.org">travis-ci</a></td>
+								</tr>
+							</tbody>
+						</table>
+ -->					</section>
+				</section>
+
+				<!-- Création -->
+				<section style="text-align: left;">
+					<section>
+						<h2>Création</h2>
+
+						<ul>
+							<li>Création des firmwares</li>
+							<li>Création des fichiers de simulations et des topologies</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Outil (Jinja2)</h2>
+
+<pre><code data-trim template>
+...
+{% for mote in motes %}
+<config>
+<x>{{ mote.x }}</x>
+<y>{{ mote.y }}</y>
+<z>{{ mote.z }}</z>
+<id>{{ mote.id }}</id>
+<mote_type>{{ mote.mote_type }}</mote_type>
+</config>
+{% endfor %}
+...
+</code></pre>
+											
+<pre><code data-trim python>
+with open("simulation_file.csc") as f:
+    f.write(template.render(motes=[
+    	{"x": 0, "y": 0, "z": 0, "id": 0, "mote_type": "router"},
+    	{"x": 1, "y": 1, "z": 1, "id": 1, "mote_type": "server"}
+    ]))
+</code></pre>
+					</section>
+				</section>	
+
+				<!-- Execution et déploiement -->
+				<section style="text-align: left;">
+					<section>
+						<h2>Execution</h2>
+
+						<ul>
+							<li>Execution sur simulation et testbed réel</li>
+							<li>Gestion de l'orchestration des trafics</li>
+							<li>Gestion des exceptions</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Outils (Fabric)</h2>
+
+<pre><code data-trim python>
+@host("grenoble")
+def run(exp_id):
+    run_experiment(exp_id)
+</code></pre>
+
+<aside class="notes">
+	Parler des différentes cibles
+	Déployer une simulations doit être simple
+	Recalcul des adresses de destination pour le flashage
+	Gardefou pour cette simulations
+	Récupérations des résultats
+	Des bibliothèques existent pour certains testbed (eviter le web)
+</aside>
+
+					</section>
+				</section>
+
+				<!-- Mise en forme -->
+				<section style="text-align: left;">
+					<section>
+						<h2>Parse</h2>
+
+						<ul>
+							<li>Nettoyage des données (PCAP, texte,...)</li>
+							<li>Changement de variable</li>
+						</ul>
+
+						<aside class="notes">
+							Parler des changements de variable lisible pour les humains
+						</aside>
+					</section>
+					<section>
+						<h2>Outils (regexp, pandas)</h2>
+
+<pre><code data-trim python>
+_handlers = [
+    _handle_udp_reception_log,
+    _handle_udp_sending_log,
+    ...,
+]
+
+messages = set()
+with open(pj(folder, "serial.log")) as serial_file:
+    for line in serial_file:
+        for handler in _handlers:
+            match = re.match(handler.regexp, line, re.MULTILINE)
+            if match:
+                message = handler(match, stats)
+                messages.add(message)
+                break
+    return messages
+</code></pre>
+
+<aside class="notes">
+	- Avoir des handlers pour les logs
+	- Des traducteurs pour les formats binaires
+	- Passer aussi vite que possible vers des formats canoniques (CSV,...)
+</aside>
+
+					</section>
+				</section>
+
+				<!-- Analyse -->
+				<section style="text-align: left;">
+					<section>
+						<h2>Analyse</h2>
+
+						<ul>
+							<li>Partie exploratoire</li>
+							<li>Nécessité d'avoir un cout d'itération faible</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Outils</h2>
+<pre><code data-trim python>
+import pandas as pd
+
+df = pd.read_csv("my_results.csv")
+df[df.pkt_type == "udp"].count()
+</code></pre>
+
+<aside class="notes">
+	- Traitement conditionnel sur des données
+	- Itérations faibles
+	- Aggrégations sur plusieurs sources de données
+	- Se rapprocher autant que possible de SQL et des langages de traitements de données
+	classiques.
+</aside>
+
+					</section>
+				</section>
+
+				<!-- Plot -->
+				<section style="text-align: left;">
+					<section>
+						<h2>Plot</h2>
+
+						<ul>
+							<li>Produire les figures pour le papier</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Outils</h2>
+<pre><code data-trim python>
+import pandas as pd
+
+df = pd.read_csv("my_results.csv")
+df[df.pkt_type == "udp"].count().plot(kind="bar")
+</code></pre>
+<aside class="notes">
+	- De nombreux autres outils de visualisation sont disponibles
+	- Un graphe est souvent utile pour choisir entre deux branches quel est la plus prometteuse.
+	- Short story pour les encadrents
+</aside>
+
+					</section>
+				</section>
+
+				<!-- Partage -->
+				<section style="text-align: left;">
+					<section>
+						<h2>Partage</h2>
+
+						<ul>
+							<li>Intéractif</li>
+							<li>Mise en forme riche (Latex)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>jupyter notebook</h2>
+<img src="img/ipython.png" alt="">
+<aside class="notes">
+	- Peut être rendu sur github directement
+	- Fonctionne avec des cellules comme un notebook mathematica
+	- interactif ou statique
+</aside>
+					</section>
+				</section>
+
+				<!-- Intégration continue -->
+				<section style="text-align: left;">
+					<section >
+						<h2>Intégration continue</h2>
+
+						<ul>
+							<li>Preuve que l'expérience est reproductible par un tiers</li>
+							<li>Dépendance figée</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Outils: Travis-ci</h2>
+						
+						<ul>
+							<li>Gratuit pour les étudiants et projets open source</li>
+							<li>Intégré à Github</li>
+							<li>Lancé à chaque nouveau commit</li>
+						</ul>
+<pre><code data-trim yaml>
+install:
+	# Install all dependencies
+	- sudo apt-get install tshark
+
+script:
+	- ipython nbconvert --to=python demo.ipynb
+	- python demo.py
+</code></pre>
+					</section>
+				</section>
+
+				<!-- Conclusion -->
+				<section>
+					<h2>Conclusion</h2>
+
+					<ul>
+						<li>CIR is good</li>
+						<li>Plusieurs types de déploiements supportés</li>
+						<li>Outils libres et disponibles</li>
+						<li> <a href="//guides.github.com/activities/citable-code">Citables</a></li>
+					</ul>
+				</section>
+
+
+				<!-- Remerciements -->
+				<section  style="text-align: left;">
+					<h2>Merci pour votre attention :)</h2>
+					<ul>
+						<li><a href="mailto:remy.leone@telecom-paristech.fr">remy.leone@telecom-paristech.fr</a></li>
+						<li><a href="//github.com/sieben/makesense">github.com/sieben/makesense</a></li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+			</script>
+
+		</body>
+		</html>
