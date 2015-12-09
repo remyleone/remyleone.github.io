@@ -1,11 +1,9 @@
 sudo: false
 language: ruby
-
-before_install:
-    - gem install jekyll jekyll-sitemap jekyll-feed jemoji
+cache: bundler
 
 script:
-    - jekyll build
+    - bundle exec jekyll build
 
 notifications:
     - email: false
