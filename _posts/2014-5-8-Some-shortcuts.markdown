@@ -19,7 +19,7 @@ Shortcuts
 |Ctrl + U  | Clean all line |
 |Ctrl + K  | Clean [position;end] |
 |Ctrl + w  | Clean the word brefore the position |
-|Ctrl + a  | Go to begin of life |
+|Ctrl + a  | Go to begin of line |
 |Ctrl + e  | Go to End of line |
 |Ctrl + p  | Previous command |
 |Ctrl + b  | Move back from a char |
