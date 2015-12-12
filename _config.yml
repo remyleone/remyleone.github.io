@@ -5,7 +5,12 @@ highlighter: pygments
 archive_path: /archive
 categories_path : /categories
 tags_path : /tags
-exclude: ["readme.markdown", "resume"]
+exclude: 
+  - readme.markdown
+  - resume
+  - Gemfile
+  - vendor
+  - .travis.yml
 sass:
   style: :compressed
 title: Rémy Léone
