@@ -38,7 +38,7 @@ Programming
 Network
 -------
 
-	sudo apt-get install vlan bridge-utils dnssec-tools
+	sudo apt-get install vlan bridge-utils dnssec-tools ipv6toolkit
 	sudo apt-get install curl lftp wget rsync tshark nmap elinks rtorrent
 	sudo apt-get install netcat socat iftop tcpdump
 	sudo apt-get install mutt offlineimap
