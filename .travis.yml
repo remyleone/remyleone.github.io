@@ -3,7 +3,9 @@ language: ruby
 cache: bundler
 
 script:
-    - bundle exec jekyll build
+  - bundle exec jekyll build
 
 notifications:
-    - email: false
+  email:
+    on_success: change
+    on_failure: always

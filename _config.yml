@@ -1,11 +1,11 @@
 destination: ./_site
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 archive_path: /archive
 categories_path : /categories
 tags_path : /tags
-exclude: 
+exclude:
   - readme.markdown
   - resume
   - Gemfile
