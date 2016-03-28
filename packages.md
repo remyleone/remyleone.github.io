@@ -28,7 +28,7 @@ Programming
 	sudo apt-get install build-essential
 	sudo apt-get install subversion git-core mercurial cvs tig
 	sudo apt-get install meld
-	sudo apt-get install doxygen asciidoc
+	sudo apt-get install doxygen asciidoc cloc
 	sudo apt-get install clang valgrind cmake cppcheck splint
 	sudo apt-get install pypy python-pip
 	sudo apt-get install openjdk-7-jdk gradle ant maven
