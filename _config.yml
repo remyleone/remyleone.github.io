@@ -38,4 +38,5 @@ github:
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
   - jemoji
