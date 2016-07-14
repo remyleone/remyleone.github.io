@@ -19,7 +19,7 @@ Terminal
 
 	sudo apt-get install tmux vim-nox irssi mosh tree ack-grep silversearcher-ag screen
 	sudo apt-get install typespeed rxvt-unicode
-	sudo apt-get install units
+	sudo apt-get install units amqp-tools
 	wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 
 Programming
