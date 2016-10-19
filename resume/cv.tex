@@ -47,7 +47,7 @@
 \newcommand{\flink}[1]{\footnote{\cvlink{#1}}}
 \newcommand{\slink}[1]{\textcolor{gray}{\small\cvlink{#1}}}
 
-\newcommand{\sqb}{\textcolor{color1}{\tiny$\blacksquare$}} 
+\newcommand{\sqb}{\textcolor{color1}{\tiny$\blacksquare$}}
 
 %%%%%%%%%%
 % Colors %
@@ -93,7 +93,7 @@
 %%%%%%%%%%%%%%%%
 % Bibliography %
 %%%%%%%%%%%%%%%%
-    
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \firstname{Rémy}
@@ -104,7 +104,7 @@
 \email{remy.leone@gmail.com}
 \homepage{sieben.fr}
 \extrainfo{
-  \faTwitter~remyleone \textbullet{} 
+  \faTwitter~remyleone \textbullet{}
     \faLinkedin~remyleone  \textbullet{}
     \faGithub~sieben  \textbullet{}
     \lang{French, 26 yo}{Français, 26 ans}}
@@ -185,6 +185,32 @@
 \section{\lang{Research experience}{Expérience professionnelle}}
 
 \experience[
+  year = { \lang{Feb 2016 - $\sim$ Feb 2017}{Fev 2016 - $\sim$ Fev 2017}},
+  position = {Post-doc},
+  lab = {Inria Paris - EVA team},
+  advisor = {Thomas Watteyne},
+  description = {\lang{
+	Working on F-Interop, a 3-year European research project which aims at
+studying, designing and implementing a Cloud-based service to test the
+compliance and interoperability of IoT products and implementations.
+	\begin{itemize}
+		\item Design, specification, development and maintenance of a complex and distributed test environment
+		\item Targetted protocols: IEEE802.15.4, 6TiSCH, 6LoWPAN, RPL, CoAP, OneM2M, ETSI M2M
+		\item Agile methodology
+	\end{itemize}
+  }
+  {
+Ingénieur de recherche pour le projet de recherche européen F-interop visant à concevoir et implémenter une
+solution de tests d'interopérabilité de protocoles réseau à distance.
+	\begin{itemize}
+		\item Conception, specification, developpement et maintenance d'une infrastructure reparties de tests
+		\item Protocoles visés: IEEE802.15.4, 6TiSCH, 6LoWPAN, RPL, CoAP, OneM2M, ETSI M2M
+		\item Méthodologie agile
+	\end{itemize}
+  }}
+]
+
+\experience[
   year = {Jan 2013 - $\sim$ Jan 2016},
   position = {\lang{PhD Candidate}{Doctorat}},
   lab = {Telecom Paris Tech \& Thales Communication and Security},
@@ -193,7 +219,7 @@
   Title: Smart gateways for low-power and lossy networks.
   \begin{itemize}
     \item Workflow for WSN reproducible research with an open source prototype \url{http://github.com/sieben/makesense}
-    \item Worked on gateway caching proxy servers 
+    \item Worked on gateway caching proxy servers
     \item Active \& passive monitoring of constrained networks
     \item Contiki (C), Java, Wireshark, numpy, matplotlib, pandas, IPython
   \end{itemize}
@@ -256,8 +282,8 @@
 %        Mr. \fm   & \footnotesize{Research Engineer}               & Alcatel Lucent Bell Labs France      & examiner \\
 %        Mr. \dk   & \footnotesize{Professor}                       & Telecom ParisTech                    & academic director \\
 %        Mr. \jr   & \footnotesize{Senior Researcher}\hspace{3mm}   & IRT SystemX                          & industrial director \\
-%        \end{tabularx} 
-%        } 
+%        \end{tabularx}
+%        }
 %        \newline
 %        $^*$ \footnotesize{work related to the PhD had been completed, but the
 %        defense had been delayed due to the different activities done
@@ -275,8 +301,8 @@
 %        M. \fm     & \footnotesize{Ing. Recherche}               & Alcatel Lucent Bell Labs France      & examinateur \\
 %        M. \dk     & \footnotesize{Professeur}                   & Telecom ParisTech                    & directeur de thèse académique \\
 %        M. \jr     & \footnotesize{Chercheur senior}\hspace{3mm} & IRT SystemX                          & directeur de thèse industriel \\
-%        \end{tabularx} 
-%        } 
+%        \end{tabularx}
+%        }
 %        \newline
 %        $^*$ \footnotesize{le travail lié à la thèse était terminé, mais la
 %        soutenance a été retardée en raison des différentes activités menées
@@ -313,7 +339,7 @@
 
 \cvitem{\lang{Theory}{Théorie}}
     {\lang{Data Analysis, Database Design, Statistics, Optimization, Numerical Analysis; language and compilation
-    theory; graphs and operational research 
+    theory; graphs and operational research
     }{Analyse de données, Conception de base de données, statistiques, optimisation, Analyse numérique; théorie des langages
     et de la compilation; graphes et recherche opérationnelle;}
     }
@@ -321,8 +347,8 @@
 \cvitem{Administration}
     {\lang{GNU/Linux: System and network administration, Computer Architecture, Operating System} {GNU/Linux: Administration système et réseau, Architecture des ordinateurs, Systèmes d'exploitation}}
 
-\cvitem{Web}{
-  flask, django, nginx, CouchDB, PostgreSQL, redis
+\cvitem{Backend}{
+  flask, django, nginx, CouchDB, PostgreSQL, redis, RabbitMQ, ansible, gitlab
 }
 
 \cvitem{SCM}{
@@ -340,11 +366,11 @@
 \cvitem{\lang{Networking}{Réseau}}
     {\lang{Routing and Quality of Service, network architecture and
     protocols, Wireless}{Routage et Qualité de Service, architecture réseau et
-    protocoles, Sans-fil}, TCP/IP, VPN, Wireshark
+    protocoles, Sans-fil}, TCP/IPv4/IPv6, VPN, Wireshark
     }
 
 \cvitem{\lang{Programming}{Programmation}}
-    {C, Java, ASM (Intel, 68k), Python, SQL, OCaml, Shell, 
+    {C, Java, ASM (Intel, 68k), Python, SQL, OCaml, Shell,
     \lang{Concurrent Programming, several contributions to free software}{Programmation concurrente, plusieurs
     contributions au logiciel libre}}
 
@@ -357,17 +383,15 @@ Type & \lang{Hours}{Heures} & Audience & \lang{Level}{Niveau} & \lang{Language}{
 
 \lang{Tut/Lab}{TD/TP} & 60.5h & $\sim$ 30 \lang{students}{étudiants} & \lang{1st year eng.}{1A Ingénieur} & FR & \href{http://perso.telecom-paristech.fr/\~chaudet/res101/}{RES101} (BCI Réseaux) \\
 
-    \lang{Tut/Lab}{TD/TP} & 18h & $\sim$ 10 \lang{students}{étudiants} & \lang{International M2}{M2 international} & EN & 
+    \lang{Tut/Lab}{TD/TP} & 18h & $\sim$ 10 \lang{students}{étudiants} & \lang{International M2}{M2 international} & EN &
     \href{http://perso.telecom-paristech.fr/\~chaudet/res841/}{RES841} (Computer Networks) \\
 
-    \lang{Tut/Lab}{TD/TP} & 21h & 26 \lang{students}{étudiants} & \lang{1st year eng.}{1A Ingénieur} & FR & 
+    \lang{Tut/Lab}{TD/TP} & 42h & 26 \lang{students}{étudiants} & \lang{1st year eng.}{1A Ingénieur} & FR &
     \href{http://www.infres.enst.fr/~bellot/java/}{INF103} (Java programming) \\
 
 \bottomrule
-\multicolumn{6}{l}{TOTAL: \textbf{99.5 \lang{h}{HETD}}}
+\multicolumn{6}{l}{TOTAL: \textbf{120.5 \lang{h}{HETD}}}
 \end{tabularx}
-
-\newpage
 
 \nocite{*}
 \printbibliography[title={Publications}]
@@ -411,14 +435,22 @@ Type & \lang{Hours}{Heures} & Audience & \lang{Level}{Niveau} & \lang{Language}{
 \projectheader
 
 \project[
-    year        = {\lang{since}{depuis} 2012},
+    year        = {\lang{since}{depuis} 2015},
+    name        = {F-interop},
+    url         = {http://www.f-interop.eu/},
+    funding     = {H2020},
+    description = {Remote Interoperability, Conformance, and Performance Tests for the Internet of Things},
+]
+
+\subsection{\lang{Former projects}{Projets terminés}}
+
+\project[
+    year        = {2012--2015},
     name        = {IRIS},
     url         = {http://www.anr-iris.fr},
     funding     = {ANR},
     description = {All IP Networks for the Future Internet of Smart Objects},
 ]
-
-\subsection{\lang{Former projects}{Projets terminés}}
 
 \project[
     year        = {2011--2013},
