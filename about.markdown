@@ -84,7 +84,7 @@ Podcasts I like to listen:
 MOOC I recommend
 ----------------
 
-- [Calling Bullshit](//callingbullshit.org/)
+- [Calling Bullshit](http://callingbullshit.org/)
 
 Why sieben?
 -----------
