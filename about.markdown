@@ -81,6 +81,11 @@ Podcasts I like to listen:
 - [You are not so smart](//youarenotsosmart.com) A celebration of self delusion.
 - [Freakonomics](//freakonomics.com) The hidden side of everything.
 
+MOOC I recommend
+----------------
+
+- [Calling Bullshit](//callingbullshit.org/)
+
 Why sieben?
 -----------
 
