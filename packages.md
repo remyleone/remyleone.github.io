@@ -100,3 +100,4 @@ Audit
 -----
 
 - [Lynis](https://cisofy.com/lynis/)
+- [Post install steps](https://feeding.cloud.geek.nz/posts/usual-server-setup/)
