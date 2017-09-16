@@ -95,3 +95,8 @@ Dotfiles
 --------
 
 [dotfiles](/dotfiles)
+
+Audit
+-----
+
+- [Lynis](https://cisofy.com/lynis/)
