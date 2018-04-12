@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: git-gateway
 
 display_url: https://example.com
 media_folder: "assets/uploads"
