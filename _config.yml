@@ -26,10 +26,10 @@ social_networks:
       url: https://www.twitter.com/remyleone
       logo: twitter
     - name: linkedin
-      url: http://fr.linkedin.com/in/remyleone
+      url: https://www.linkedin.com/in/remyleone
       logo: linkedin
     - name: google-scholar
-      url: http://scholar.google.fr/citations?user=by3UkrwAAAAJ
+      url: https://scholar.google.fr/citations?user=by3UkrwAAAAJ
       logo: book
 
 github:
