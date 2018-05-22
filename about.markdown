@@ -17,13 +17,6 @@ Check out my resume:
 [:fr:](/cv_fr_leone_remy.pdf)
 [:uk:](/cv_en_leone_remy.pdf)
 
-Association I care about:
--------------------------
-
-- [Paris Montagne](//paris-montagne.org) The association I'm a
-  volunteer in. Check us out, we do science, try to hack education
-  and it's awesome! :)
-
 Programming Achievements
 ------------------------
 
