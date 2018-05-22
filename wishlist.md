@@ -13,11 +13,6 @@ Amazon
 
 - [Many lists](//www.amazon.fr/gp/registry/wishlist/1BPP3L9BTYAPB)
 
-Logical Fallacies
------------------
-
-- [Thou shalt not commit logical fallacies poster](//yourlogicalfallacyis.com/poster)
-
 Thinkgeek
 ---------
 
