@@ -20,7 +20,7 @@ enforce_ssl: www.sieben.fr   # without any protocol
 description: 'Cloud Developer Evangelist'
 social_networks:
     - name: github
-      url: https://github.com/sieben
+      url: https://github.com/remyleone
       logo: github
     - name: twitter
       url: https://www.twitter.com/remyleone
@@ -33,7 +33,7 @@ social_networks:
       logo: book
 
 github:
-    repo: https://github.com/sieben/sieben.github.com
+    repo: https://github.com/remyleone/remyleone.github.io
 
 gems:
   - jekyll-sitemap
