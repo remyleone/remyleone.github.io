@@ -17,7 +17,7 @@ title: Rémy Léone
 tagline: "Remy Leone's website"
 url: "https://sieben.fr"
 enforce_ssl: www.sieben.fr   # without any protocol
-description: 'Cloud Developer Evangelist'
+description: Cloud Developer Advocate
 social_networks:
     - name: github
       url: https://github.com/remyleone
